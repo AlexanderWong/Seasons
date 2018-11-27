@@ -26,7 +26,7 @@ class App extends React.Component {
   }
 
   render() {
-    return <div classname="border red">{this.renderContent()}</div>;
+    return <div>{this.renderContent()}</div>;
   }
 }
 
